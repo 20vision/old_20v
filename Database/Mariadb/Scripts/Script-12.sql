@@ -1,0 +1,1 @@
+select unique_pagename,if(count(page_id)>0,false,true) as unique from Page where unique_pagename = 'lol'

@@ -1,0 +1,1 @@
+SELECT p.*,upf.* from Page p join UserPageFollow upf on upf.page_id = p.page_id and upf.user_id =10 order by upf.userpagefollow_created desc

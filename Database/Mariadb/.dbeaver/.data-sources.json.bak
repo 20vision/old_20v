@@ -1,0 +1,62 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-17680a112d2-4517fe3800bbb5f2": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "localhost",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "/usr",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-1777890551e-1024117d46a113fb": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "35.234.83.144",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "35.234.83.144",
+				"port": "3306",
+				"url": "jdbc:mysql://35.234.83.144:3306/",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17779c01b18-3d64217cc82666b7": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

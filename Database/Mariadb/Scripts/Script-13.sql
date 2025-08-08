@@ -1,0 +1,1 @@
+select p.* from Page p INNER JOIN UserPage up p.page_id on up.page_id

@@ -1,0 +1,2 @@
+/*update Project set title = ?, summary = ?, project_attachment = ?, wiki = ? where project_id like ?*/
+select p.* Project p join PageUser up on up.page_id = p.page_id and p.project_id = 52 and up.user_id = 10
